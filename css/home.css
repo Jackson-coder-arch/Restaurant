@@ -1,0 +1,61 @@
+
+.upperbody{
+    color: white;
+    text-align: center;
+   
+}
+.upper{
+    background-image: url("../images/burger2.jpg");
+
+
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .home{
+      float: right;
+  }
+  
+.ha{
+    float: right;
+}
+
+
+.ha:hover{
+    color: rgb(242, 82, 28)
+}
+  
+
+  .input1 {
+    width: 130px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+.input1:focus {
+    width: 30%;
+
+}
+.search{
+    text-align: center;
+    padding: 1%;
+    position:fixed;
+    display: block;
+    width: 100%;
+    opacity: 0.9;
+
+    
+}
