@@ -33,7 +33,8 @@
 
 
 .ha:hover{
-    color: rgb(242, 82, 28)
+    color: rgb(242, 82, 28);
+    text-decoration: none;
 }
   
 
