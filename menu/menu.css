@@ -1,0 +1,88 @@
+body{
+    background-image: url(images/whitepage.jpeg);
+}
+small{
+    font-size: 16px;
+    color: rgb(242, 82, 28);
+}
+.p2{
+    font-size: 70px;
+    padding-left: 90px;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img1{
+    padding-top: 30px;
+}
+.efforts{
+    text-decoration: none;
+    color: rgb(51, 48, 48);
+}
+a:hover{
+    color: rgb(242, 82, 28);
+    text-decoration: none;
+}
+.card-body{
+    background-image: url(images/whitepage2.jpeg);
+    background-size: cover;
+}
+.row{
+    padding-top: 100px;
+}
+.h1{
+    font-size: 28px;
+    text-decoration: underline rgb(242, 82, 28);
+    text-underline-position: under;
+    text-decoration-skip-ink: ink;
+    padding-bottom: 50px;
+    padding-left: 60px;
+}
+img{
+    padding-left: 80px;
+}
+.burger1{
+    padding-bottom: 50px;
+}
+.h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.h2:hover{
+    color: chocolate;
+}
+.price1{
+    text-align: end;
+    color: chocolate;
+}
+.foods{
+    padding-bottom: 50px;
+    padding-left: 60px;
+}
+.dots{
+    text-align: end;
+    padding-left: 8px;
+    font-weight: lighter;
+}
+.price{
+    padding-left: 30px;
+    color: chocolate;
+}
+.chips{
+    width: 450px;
+    padding-bottom: 30px;
+}
+#fast2{
+    padding-top: 120px;
+}
+.hamburger{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 450px;
+}
+.fast4{
+    padding-top: 50px;
+}
+.chicken{
+    width: 450px;
+}
