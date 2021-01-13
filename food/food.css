@@ -4,6 +4,7 @@ html {
 
 .navbar {
     background-image: url(img/dark-pattern.jpg);
+    /* position: fixed; */
 }
 
 .myrow1 {
@@ -46,6 +47,7 @@ html {
     min-height: 400px;
     height: 100%;
 }
+
 .fast-img {
     position: absolute;
     margin-left: 100px;
@@ -53,31 +55,49 @@ html {
     border: solid white 10px;
     border-radius: 5px;
 }
+
 .fast h3 {
     position: absolute;
     margin-left: 350px;
     margin-top: -180px;
     color: white;
 }
+
 .fast p {
     position: absolute;
     margin-left: 350px;
     margin-top: -135px;
     color: white;
 }
+
 .fast .arrow {
     position: absolute;
     margin-top: -100px;
     margin-left: 350px;
-    height: 6px;
+    height: 20px;
     border-radius: 50%;
     border-color: white;
 }
-.btn {
+
+.fast .bike {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 450px;
+}
+
+.fast .star {
+    height: 34px;
+    position: absolute;
+    margin-top: -107px;
+    margin-left: 550px;
+}
+
+.btn1 {
     position: absolute;
     margin-left: 640px;
     margin-top: -178px;
 }
+
 .form-control {
     display: none;
     width: 50%;
@@ -88,11 +108,55 @@ html {
 }
 
 .myrow3 {
-    border: solid red;
-    height: 80px;
-}
-
-.myrow4 {
     border: solid black;
     height: 1500px;
+}
+
+.mycol3 {
+    border: solid red;
+}
+
+.card2 {
+    margin-top: 40px;
+}
+
+.burger {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.btn2 {
+    margin-left: 230px;
+    top: -30px;
+    background: none;
+    border-color: black;
+    color: black;
+    line-height: 15px;
+}
+
+.btn2:hover {
+    color: black;
+    background-color: none;
+    border-color: black;
+}
+
+.btn2:focus,
+.btn2.focus {
+    color: black;
+    background-color: none;
+    border-color: black;
+    /* box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5); */
+}
+
+.btn3 {
+    margin-left: 230px;
+    padding-left: -20px;
+    padding-right: -30px;
+    width: 150px;
+    line-height: 15px;
+    margin-left: 180px;
+    margin-top: -100px;
+    background: none;
+    border-color: black;
+    color: black;
 }
