@@ -12,13 +12,20 @@
 .navbar {
     
     background-color:black;
-    opacity: 0.9;
+    opacity: 1;
     
     width: 100%;
   }
-  
-  .navbar a {
+ 
+.home-content{
+    margin-left: 700px;
+}
+
+
+  .home-content a {
     float: left;
+   
+    justify-content: space-evenly;
     font-size: 16px;
     color: white;
     text-align: center;
@@ -27,9 +34,7 @@
   }
  
   
-.navbar{
-    
-}
+
 
 
 .ha:hover{
@@ -39,7 +44,7 @@
   
 
   .input1 {
-    width: 130px;
+    width: 25%;
     border: 2px solid #ccc;
     font-size: 16px;
     padding: 12px 20px 12px 40px;
