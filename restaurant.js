@@ -1,21 +1,21 @@
 $(document).ready(function(){
-    $(".design").click(function(){
-        $("#design, .design").toggle("slow");
+    $(".about").click(function(){
+        $("#about, .about").toggle("slow");
     });
-    $("#design").click(function(){
-        $(".design, #design").toggle("slow");
+    $("#about").click(function(){
+        $(".about, #about").toggle("slow");
     });
-    $(".development").click(function(){
-        $("#development, .development").toggle("slow");
+    $(".contact").click(function(){
+        $("#contact, .contact").toggle("slow");
     });
-    $("#development").click(function(){
-        $(".development, #development").toggle("slow");
+    $("#contact").click(function(){
+        $(".contact, #contact").toggle("slow");
     });
-    $(".product").click(function(){
-        $("#product, .product").toggle("slow");
+    $(".payment").click(function(){
+        $("#payment, .payment").toggle("slow");
     });
-    $("#product").click(function(){
-        $(".product, #product").toggle("slow");
+    $("#payment").click(function(){
+        $(".payment, #payment").toggle("slow");
     });
    
 });

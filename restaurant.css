@@ -9,8 +9,22 @@
 .home-content{
     margin-left: 700px;
 }
-.secrect{
+.gar{
+    border: solid black;
+    height: 200px;
+}
+.rate{
+    padding-right: 4%;
+}
+#secre{
     border: solid;
+}
+#secrect{
+    border: solid white 2px;
+}
+h2{
+    font-weight: 300;
+    font-size: x-large;
 }
 
 
@@ -24,10 +38,10 @@
     padding: 14px 16px;
     text-decoration: none;
   }
-  li{
+  /* li{
       float: left;
       padding-right: 80%;
-  }
+  } */
 
 .ha:hover{
     color: rgb(242, 82, 28);
@@ -49,10 +63,21 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 2000px 2600px;
+    height: 400px;
+    text-align: center;
     
+}
+
+#formsearch{
+    margin-left: 8%;
 }
 #loc{
     padding-left: 5%;
+    background-color: white;
+    padding: 1%;
+}
+.number{
+    border-radius: 2%;
 }
 .food {
     padding-left:8px;
@@ -105,6 +130,7 @@
   bottom: 0;
   width: 90%;
   
-  
-
+}
+.section{
+    background-image: url(./img/dark-pattern.jpg);
 }

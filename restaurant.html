@@ -24,9 +24,9 @@
                 <li>
                     <a>
                         <img alt="logo" src="img/logo1.jpg" id="logo">
-                     </a>
+                    </a>
                 </li>
-                
+
                 <a class="ha" href="../Restaurant/index.html">HOME</a>
                 <a class="ha" href="#">RESTAURANT</a>
                 <a class="ha" href="#">FOOD</a>
@@ -61,12 +61,12 @@
         </div>
         <div class="container-fluid text-center">
 
-            <div class="container text-white">
-                <h2>Search Your Favourite Food</h2>
+            <div class="container text-white mt-5 pt-5">
+                <h2> <strong>Search Your Favourite Food</strong> </h2>
                 <p>Find restaurants, specials, and coupons for free</p>
 
             </div>
-            <form class="row favorite">
+            <form class="row favorite pt-5" id="formsearch">
 
                 <div class="col-auto">
                     <input type="password" class="form-control" id="" placeholder="I would like to eat?">
@@ -154,52 +154,95 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8 ml-md-2 my-4" id="cards">
-                    <div class="media secret">
+                <!-- <div class="col-md-8 ml-md-2 my-4" id="cards">
+                    <div class="media" id="secrect">
                         <div class="row">
                             <div class="col-md-4">
                                 <img src="./img/secret.jpeg" class="ml-3" alt="..." width="180px" height="180px">
 
                             </div>
-                            <div class="col-md-6">
-                                <h5 class=" mt-0 mb-1">Media object</h5>
+                            <div class="col-md-6 pt-5">
+                                <h5 class=" mt-0 mb-1 my-2">Secrect Garden restaurant</h5>
                                 This is one of the best place to get African cuisines well
                                 done.
-                                From nyama choma, githeri, wali, mukimo                       
+                                <p> From nyama choma, githeri, wali, mukimo</p>
                             </div>
                             <div class=" col-md-2">
-                                <img src="./img/rate2.jpg" alt="rate" width="100px">
-                             <p>Reviews 12</p>
-                                
+                                <div class="card-body gar">
+                                    <img src="./img/rate2.jpg" class="rate pt-5" alt="rate" width="100px">
+                                    <p>Reviews 12</p>
+                                </div>
+
                             </div>
 
+
+
                         </div>
-                            
+
                     </div>
-                        
-                      
-                    <div class="card mb-3" style="max-width: 680px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="./img/secret.jpeg" alt="restaurant" width="180px" height="180px">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="Secret Garden Restaurant"></a> Secret Garden Restaurant</h5>
-                                    <p class="card-text">This is one of the best place to get African cuisines well
-                                        done.
-                                        From nyama choma, githeri, wali, mukimo</p>
-                                    <p class="card-text"><small class="text-muted">African Cuisines </small></p>
+                    <div class="container" id="secr">
+                        <div class="col-md-10">
+                            <div class="card mb-3" style="max-width: 680px;">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img src="./img/secret.jpeg" alt="restaurant" width="180px" height="180px">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5>Secret Garden Restaurant....</h5>
+                                            <p class="card-text">This is one of the best place to get African cuisines
+                                                well
+                                                done.
+                                                From nyama choma, githeri, wali, mukimo</p>
+                                            <p class="card-text"><small class="text-muted">African Cuisines </small></p>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-2">
-                                <img src="./img/rate3.jpg" alt="restaurant" width="100px" >
+
                             </div>
                         </div>
+                        <div class="col-md-2">
+                            <div class="col-md-2">
+                                <img src="./img/rate3.jpg" alt="restaurant" width="100px">
+                            </div>
+                        
                     </div>
+                    <br><br><br>
+                    <div class="row g-0">
+                        <div class="col-sm-6 col-md-8">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./img/fast.jpeg" alt="restaurant" width="180px" height="180px">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nathan's fast food</h5>
+                                        <p class="card-text">Enjoy our pizzas, burger, hotdogs, wings. Get any kind of
+                                            fast food under one roof
+                                            without delay.
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Get served as fast as possible
+                                                without inconviniences </small></p>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <!-- <div class="col-md-8 ml-md-2 my-4">
-                        <div class="card mb-3" style="max-width: 800px;">
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <div class="col-md-2">
+                                <img src="./img/rate3.jpg" alt="restaurant" width="100px">
+                            </div>
+
+                        </div>
+                      </div>
+
+
+
+
+                    <div class="col-md-8 ml-md-2 my-4">
+                        <div class="card mb-3" width="800px">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <img src="./img/drinks.jpeg" alt="restaurant" width="180px" height="180px">
@@ -213,15 +256,15 @@
                                         <p class="card-text"><small class="text-muted">Coffee, fruit juice, salads, milk
                                                 shake, Cappicino </small></p>
                                     </div>
-                                </div>
-                                <div class="col-md-2">
+                                </div> -->
+                                <!-- <div class="col-md-2">
                                     <img src="./img/secret.jpeg" alt="restaurant" width="180px" height="180px">
-                                </div>
+                                </div> -->
                             </div>
-                        </div> -->
+                        </div>
 
-                       
-                        <div class="card mb-3" style="max-width: 880px;">
+
+                        <!-- <div class="card mb-3" style="max-width: 880px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <img src="./img/fast.jpeg" alt="restaurant" width="180px" height="180px">
@@ -229,17 +272,39 @@
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Nathan's fast food</h5>
-                                        <p class="card-text">Enjoy our pizzas, burger, hotdogs, wings. Get any kind of fast food under one roof
+                                        <p class="card-text">Enjoy our pizzas, burger, hotdogs, wings. Get any kind of
+                                            fast food under one roof
                                             without delay.
-                                            </p>
-                                        <p class="card-text"><small class="text-muted">Get served as fast as possible without inconviniences </small></p>
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Get served as fast as possible
+                                                without inconviniences </small></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                     
+                    <div class="card mb-3" style="max-width: 680px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/secret.jpeg" alt="restaurant" width="180px" height="180px">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="Secret Garden Restaurant"></a> Secret Garden
+                                        Restaurant</h5>
+                                    <p class="card-text">This is one of the best place to get African cuisines well
+                                        done.
+                                        From nyama choma, githeri, wali, mukimo</p>
+                                    <p class="card-text"><small class="text-muted">African Cuisines </small></p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <img src="./img/rate3.jpg" alt="restaurant" width="100px">
+                            </div>
+                        </div>
+                    </div> -->
+
 
 
 
@@ -253,43 +318,45 @@
 
 
     <footer class="foot">
-        <div class="section ">
+        <div class="section text-white">
             <div class="container">
                 <!-- <h3 class="pt-3 text-center">WHAT WE DO</h3> -->
                 <div class="row pt-5">
                     <div class="col-md-4 text-center">
                         <div class="about">
-                            <img src="./img/about.jpeg" alt="design">
+                            <img src="./img/about-removebg-preview.png" alt="design">
                             <p>About Us</p>
                         </div>
                         <div id="about">
                             <h4><strong>About Us</strong></h4>
-                            <p>Our practice is to offer full range of service including getting you food and drinks from the best hotels in town.
-                               Relax as we get you what you need</p>
+                            <p>Our practice is to offer full range of service including getting you food and drinks from
+                                the best hotels in town.
+                                Relax as we get you what you need</p>
                             <p>All around the city and its environs, we ensure you get them as fast as possible,
-                                
+
                                 user feedback and work with you to make sure what gets built is what is needed.</p>
                         </div>
                     </div>
-    
-    
+
+
                     <div class="col-md-4 text-center">
                         <div class="contact">
-                            <img src="./img/contact.jpeg" alt="dev">
+                            <img src="./img/contact-removebg-preview (2).png" alt="dev">
                             <p><strong> Contact</strong></p>
                         </div>
                         <div id="contact">
                             <h4><strong>Contact</strong></h4>
                             <p>Don't shy from us reach out for any queries, orders needed to be delivered
                             </p>
-                            <p>We collaborate with you making the best out of our services, and improve on our daily services, using proven
+                            <p>We collaborate with you making the best out of our services, and improve on our daily
+                                services, using proven
                                 practices to ensure you receive whatever you want at your comfort.</p>
                         </div>
                     </div>
-    
+
                     <div class="col-md-4 text-center">
                         <div class="payment">
-                            <img src="./img/payment.png" alt="product">
+                            <img src="./img/payment-removebg-preview (2).png" alt="product">
                             <p><strong>Payment method</strong></p>
                         </div>
                         <div id="payment">
@@ -302,8 +369,8 @@
                         </div>
                     </div>
                 </div>
-    
-        <!-- <div class="row">
+
+                <!-- <div class="row">
             <div class="col-4">
                 <h4>Payment Options</h4>
 
@@ -321,15 +388,17 @@
         </div> -->
 
     </footer>
-    <script type="application/json" data-post="111">{"thumbnail":"","extra":"","meta":"","header":"","footer":"","data":"","id":111,"marker_image":"","url":"http:\/\/azexo.com\/foodpicky\/profile\/central-pizzeria\/","title":"Central pizzeria","description":"","image":"                \n    <a href=\"http:\/\/azexo.com\/foodpicky\/profile\/central-pizzeria\/\">\n                                    <div class=\"image \" style='background-image: url(\"http:\/\/azexo.com\/foodpicky\/wp-content\/uploads\/2016\/09\/x1.jpg\"); height: 1024px;' data-width=\"1024\" data-height=\"1024\">\n                <\/div>\n                        <\/a>\n    ","latitude":["40.464574"],"longitude":["-74.361531"]}</script>
+    <script type="application/json"
+        data-post="111">{"thumbnail":"","extra":"","meta":"","header":"","footer":"","data":"","id":111,"marker_image":"","url":"http:\/\/azexo.com\/foodpicky\/profile\/central-pizzeria\/","title":"Central pizzeria","description":"","image":"                \n    <a href=\"http:\/\/azexo.com\/foodpicky\/profile\/central-pizzeria\/\">\n                                    <div class=\"image \" style='background-image: url(\"http:\/\/azexo.com\/foodpicky\/wp-content\/uploads\/2016\/09\/x1.jpg\"); height: 1024px;' data-width=\"1024\" data-height=\"1024\">\n                <\/div>\n                        <\/a>\n    ","latitude":["40.464574"],"longitude":["-74.361531"]}</script>
 
 
-    <script src="./restaurant.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+    <script src="./restaurant.js"></script>
 
 </body>
 
