@@ -36,10 +36,7 @@
                 <br><br>
                 <h6>Find resturants, Specials and coupons for free</h6>
 
-                <div class="search">
-                    <input class="input1" type="text" id="myInput" onkeyup="display()" placeholder="Search..." title="Type in a name">
-        
-                </div>
+               
             </div>
             <br><br>
             <img class="img" src="../Restaurant/images/home22.png">
@@ -56,6 +53,114 @@
 
 
         </div>
+
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-3"style= "max-width:880px" height="800px">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../Restaurant/images/secret.jpeg" class="ml-3" alt="..." width="180px" height="180px">
+    
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5>Secrect Garden restaurant</h5>
+                                <p>This is one of the best place to get African cuisines well
+                                    done.
+                                    <p> From nyama choma, githeri, wali, mukimo</p>
+                                    
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+              
+
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3" style="max-width:880px" >
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../Restaurant/images/drinks.jpeg" alt="restaurant" width="180px" height="180px">
+    
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5>Roma Cafe</h5>
+                                <p class="card-text">You can never go wrong with our drinks and fruits, start
+                                    your
+                                    day with much love from us.</p>
+                                <p class="card-text"><small class="text-muted">Coffee, fruit juice, salads, milk
+                                        shake, Cappicino </small></p>
+                                        
+                                
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+               
+
+            </div>
+            <div class="col-md-4">
+                
+                <div class="card mb-3" style="max-width: 880px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../Restaurant/images/fast.jpeg" alt="restaurant" width="180px" height="180px">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Nathan's fast food</h5>
+                                <p class="card-text">Enjoy our pizzas, burger, hotdogs, wings. Get any kind of
+                                    fast food under one roof
+                                    without delay.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Get served as fast as possible
+                                        without inconviniences </small></p>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+    
+               
+
+            </div>
+           
+
+        </div>
+
+        
+            
+           
+
+           
+
+
+           
+
+
+            
+            
+
+      
+  
+
+
+
+
+
+
+
+
+
+
+
 
         <div class="whatwedo">  <br> 
             
@@ -87,9 +192,9 @@
          
              <div class="icons2" >
                  <div class="hide2">
-                 <p class="click22" ><b>CONTACT US </b> <br> <br> Go to your Mpesa<br><br>Select lipa na mpesa, 
-                    then select the paybill option our paybill no. 567908<br><br>Acc MFZ2367498<br><br>
-                    Thank you for buying from us  </p>
+                 <p class="click22" ><b>CONTACT US </b> <br> <br>Reach us through<br>
+                    <br>Email: chakulachapchap@gmail.com<br><br>Or you can call us through<br>
+                    <br>Phone: +254712345678910</p>
          
                </div>
          
@@ -155,6 +260,26 @@
                 });
               });
             
+
+
+
+
+              function search() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
               
                 </script>
 

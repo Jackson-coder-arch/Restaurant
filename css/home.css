@@ -198,3 +198,58 @@ body{
     width: 100%;
 }
 
+
+
+#sec{
+    background-image: url('./img/burger.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px 2600px;
+    height: 400px;
+    text-align: center;
+    
+}
+
+#formsearch{
+    margin-left: 8%;
+}
+#loc{
+    padding-left: 5%;
+    background-color: white;
+    padding: 1%;
+}
+.number{
+    border-radius: 2%;
+}
+.food {
+    padding-left:8px;
+}
+.favorite{
+    padding-left: 600px;
+}
+.footer{
+    padding-left: 5%;
+}
+#about{
+    display: none;
+}
+#contact{
+    display: none;
+}
+#payment{
+    display: none;
+}
+#card{
+    width:100%;
+    background-color: orange;
+}
+
+.row{
+    background-color: white;
+    padding: 50px 20px;
+}
+
+
+*{
+    overflow-x: hidden;
+}
