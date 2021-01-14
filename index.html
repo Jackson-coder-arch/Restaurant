@@ -5,33 +5,34 @@
         <title>Chakula chap chap</title>
         <link rel="stylesheet" href="../Restaurant/css/home.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <div class="upper">
 
-            <div class="navbar">
+            <div class="navbar mt-1" >
+                <img class="imglogo" src="../Restaurant/images/logo.png" width="200px" height="220px" >
 
-                <div class="home"> 
-
-                
 
                 <div class="home-content">
+                   
                     <a class="ha" href="../Restaurant/index.html">HOME</a>
                     <a class="ha" href="#">RESTAURANT</a>
                     <a class="ha" href="#">FOOD</a>
                     <a class="ha" href="#">PAGES</a>
                     <a class="ha" href="#">BLOG</a>
+
                 </div>
                 
-                </div>
+                
 
             </div>
             <br><br><br><br><br><br><br>
 
             <div class="upperbody"> 
-                <h1>ORDER DELIVVERY & TAKEOUT</h1>
+                <h1>ORDER DELIVERY & TAKEOUT</h1>
                 <br><br>
                 <h6>Find resturants, Specials and coupons for free</h6>
 
@@ -50,18 +51,118 @@
             <p class="imgtext">Location Takeout</p>
             
             
-            <br><br><br><br><br><br><br>
+            <br><br><br><br><br>
 
 
 
         </div>
 
+        <div class="whatwedo">  <br> 
+            
 
+            <div class="icons">
+         
+         
+         
+             <div class="hide">
+                 <p class="clickk" ><b>ABOUT US </b> <br> <br>Our design practice offers a full range of services
+                     including brand strategy, interaction and visual design and user experience
+                      testing. <br><br> Throughout you project, our desingers create and implement
+                       visual design and  workflows, solicit user feedback and work with you to make
+                        sure what gets built is what is needed.</p>
+               </div>
+         
+         
+         
+               <div class="show">
+                
+                 <img class="click" class="clickk" src="../Restaurant/images/about us.png">
+                 <p>ABOUT US </p>
+               </div>
+         
+         
+         
+            </div>
+         
+         
+         
+             <div class="icons2" >
+                 <div class="hide2">
+                 <p class="click22" ><b>CONTACT US </b> <br> <br> All engineers are 
+                     fluent in the latest enterprise, mobile and web development
+                      technologies. <br><br> They  collaborate with your team to
+                       write and improve code on a daily basis, using proven practices
+                        such as test-driven development and pair programming.  </p>
+         
+               </div>
+         
+         
+         
+               <div class="show2">
+                
+                 <img class="click2" class="click22" src="../Restaurant/images/contact.png">
+                 <p>CONTACT US </p>
+               </div>
+         
+             </div>
+         
+         
+         
+         
+         
+             <div class="icons3" >
+                 <div class="hide3">
+                 <p class="click33" ><b>PAYMENT METHOD</b> <br> <br> 
+                     Planning and development isiterative. Because we are constantly
+                      coding and testing, the products we build are always ready to
+                       go live <br><br> This iterative proccess allowsfor changes as
+                        business requirements evolve. </p>
+         
+         
+               </div>
+         
+         
+         
+               <div class="show3">
+                
+                 <img class="click3" class="click33" src="../Restaurant/images/payment-method.png">
+                 <p>PAYMENT METHOD </p>
+               </div>
+         
+             </div>
+             </div>
+         
+      
         
 
+         <script>
 
+            $(document).ready(function() {
+                $(".icons").click(function() {
+                  $(".show").toggle();
+                  $(".hide").toggle();
+                });
+              });
+            
+              $(document).ready(function() {
+                $(".icons2").click(function() {
+                  $(".show2").toggle();
+                  $(".hide2").toggle();
+                });
+              });
+            
+              $(document).ready(function() {
+                $(".icons3").click(function() {
+                  $(".show3").toggle();
+                  $(".hide3").toggle();
+                });
+              });
+            
+              
+                </script>
 
     </body>
+   
 
 
 
