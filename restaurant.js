@@ -1,21 +1,20 @@
-$(document).ready(function(){
-    $(".about").click(function(){
-        $("#about, .about").toggle("slow");
+$(document).ready(function() {
+    $(".icons").click(function() {
+      $(".show").toggle();
+      $(".hide").toggle();
     });
-    $("#about").click(function(){
-        $(".about, #about").toggle("slow");
+  });
+
+  $(document).ready(function() {
+    $(".icons2").click(function() {
+      $(".show2").toggle();
+      $(".hide2").toggle();
     });
-    $(".contact").click(function(){
-        $("#contact, .contact").toggle("slow");
+  });
+
+  $(document).ready(function() {
+    $(".icons3").click(function() {
+      $(".show3").toggle();
+      $(".hide3").toggle();
     });
-    $("#contact").click(function(){
-        $(".contact, #contact").toggle("slow");
-    });
-    $(".payment").click(function(){
-        $("#payment, .payment").toggle("slow");
-    });
-    $("#payment").click(function(){
-        $(".payment, #payment").toggle("slow");
-    });
-   
-});
+  });
