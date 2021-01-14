@@ -1,0 +1,61 @@
+.one{
+    background-image: url(images/dark1.jpeg);
+}
+.welcome{
+    color: rgb(150, 140, 133);
+    padding-top: 150px;
+    padding-bottom: 0px;
+}
+.p1{
+    color:whitesmoke;
+    font-size: 50px;
+    padding-left: 400px;
+}
+.span1{
+    color: chocolate;
+}
+.small1{
+    padding-left: 470px;
+}
+.p2{
+    padding-left: 370px;
+    padding-top: 0px;
+    font-size: 15px;
+    color: rgb(150, 140, 133);
+}
+.p3{
+    padding-left: 410px;
+    padding-top: 0px;
+    font-size: 15px;
+    color: rgb(150, 140, 133);
+}
+.img{
+    width: 350px;
+    height: 200px;
+}
+.h1{
+    font-size: 18px;
+    color: whitesmoke;
+}
+.h1:hover{
+    color: chocolate;
+}
+.h2{
+    font-size: 14px;
+    color: rgb(150, 140, 133);
+}
+.col-md-3{
+    padding-top: 200px;
+}
+.col2{
+    padding-bottom: 200px;
+}
+.img2{
+    width: 200px;
+    height: 220px;
+    padding-top: 15px;
+}
+.price{
+    color: chocolate;
+    padding-top: 5px;
+}
