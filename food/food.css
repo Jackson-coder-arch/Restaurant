@@ -2,9 +2,51 @@ html {
     overflow-x: hidden;
 }
 
-.navbar {
-    background-image: url(img/dark-pattern.jpg);
-    /* position: fixed; */
+/* #navtop ul li {
+    float: right;
+    padding-left: 50px;
+    color: white;
+}
+#navtop ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+#navtop ul {
+    margin-right: 100px;
+    z-index: 0;
+}
+#navtop {
+    background-color:  rgb(20, 22, 36);
+    height: 100px;
+} */
+#logo {
+    /* display: inline-block; */
+    vertical-align: top;
+    float: left;
+}
+
+/* .navbarF {
+    background-color:  rgb(20, 22, 36) !important;
+} */
+#navbarNav {
+    margin-left: 300px;
+}
+
+.navbar-nav {
+    margin-right: 300px;
+}
+
+.navbar-nav li a {
+    float: left;
+    display: flex;
+}
+
+.navbar-item {
+    color: black !important;
+}
+
+.logo {
+    margin-top: -50px;
 }
 
 .myrow1 {
@@ -107,13 +149,58 @@ html {
     width: 60rem;
 }
 
+.fruit {
+    /* position: relative;
+    z-index: 1; */
+    /* max-height: 100%;
+    max-width: 100%; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1320px; */
+}
+
 .myrow3 {
-    border: solid black;
     height: 1500px;
+    background-image: url("img/katherine-chase-4MMK78S7eyk-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .mycol3 {
-    border: solid red;
+    /* border: solid red; */
+}
+
+.card-title1 {
+    border: solid;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin: -17px;
+    color: white;
+    background-color: rgb(242, 82, 28);
+    border-color: rgb(242, 82, 28);
+}
+
+.cardbutton {
+    padding-top: 50px;
+}
+
+.card1 {
+    margin-top: 40px;
+    z-index: 2;
+    margin-left: 40px;
+}
+
+.card3 {
+    margin-top: 40px;
+    right: 0px;
+}
+
+.card11 {
+    margin-top: 40px;
+    right: 40px;
+    min-height: 100px;
+    overflow: hidden;
 }
 
 .card2 {
@@ -123,11 +210,13 @@ html {
 .burger {
     padding-left: 10px;
     padding-top: 10px;
+    margin-top: -5px;
 }
 
 .btn2 {
-    margin-left: 230px;
-    top: -30px;
+    margin-left: 210px;
+    width: 119px;
+    margin-top: -30px;
     background: none;
     border-color: black;
     color: black;
@@ -135,28 +224,69 @@ html {
 }
 
 .btn2:hover {
-    color: black;
-    background-color: none;
+    /* color: rgb(242, 82, 28); */
     border-color: black;
 }
 
-.btn2:focus,
+/* .btn2:focus,
 .btn2.focus {
     color: black;
     background-color: none;
-    border-color: black;
-    /* box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5); */
-}
+    border-color: black; */
+/* box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5); */
+
 
 .btn3 {
-    margin-left: 230px;
+    margin-left: 220px;
     padding-left: -20px;
     padding-right: -30px;
-    width: 150px;
+    width: 110px;
     line-height: 15px;
-    margin-left: 180px;
-    margin-top: -100px;
+    margin-top: -20px;
     background: none;
     border-color: black;
     color: black;
+}
+
+.btn3:hover {
+    color: rgb(242, 82, 28);
+    background-color: none !important;
+}
+
+.button {
+    margin-top: -10px;
+}
+
+.btn4 {
+    width: 285px;
+    margin-top: 5px;
+    margin-left: -15px;
+    background-color: none;
+}
+
+.btn4:hover {
+    color: rgb(242, 82, 28);
+}
+
+.cartsub {
+    text-align: center;
+    display: none;
+}
+
+.carttext {
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
+
+#subtotal {
+    text-align: center;
+    display: none;
+}
+#total {
+    text-align: center;
+}
+.food {
+    list-style-type: none;
 }
