@@ -111,6 +111,7 @@
 .img{
    width:5%;
    height: 5%;
+   float: left;
    
 
 }
@@ -161,17 +162,38 @@
 .click {
     height: 30%;
     width: 30%;
+    color: white;
 }
 .click2 {
     height: 30%;
     width: 30%;
+    color: white;
 }
 .click3 {
     height: 30%;
     width: 30%;
+    color: white;
 }
 
-.whatwedo{
+.clickk {
+    color: white;
+}
+
+.click22 {
+    color: white;
+}
+
+.click33 {
+    color: white;
+}
+.foot{
+    color: white;
+}
+
+
+body{
     background-image: url("../images/footer.jpg");
+    height: 100%;
+    width: 100%;
 }
 
