@@ -124,3 +124,9 @@
     background-repeat: no-repeat;
     background-position: left bottom;
 }
+.main2{
+    background-image: url(images/roastchicken\ \(1\).png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 13%;
+}
