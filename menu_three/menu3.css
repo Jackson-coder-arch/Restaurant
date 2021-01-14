@@ -59,3 +59,38 @@
     color: chocolate;
     padding-top: 5px;
 }
+
+ @media screen and (max-device-width: 768px) {  
+    .p1{
+        font-size: 50px;
+        padding-left: 100px;
+    }
+    .small1{
+        padding-left: 170px;
+    }
+    .p2{
+        padding-left: 75px;
+        padding-top: 0px;
+        font-size: 15px;
+        color: rgb(150, 140, 133);
+    }
+    .p3{
+        padding-left: 100px;
+        padding-top: 0px;
+        font-size: 15px;
+        color: rgb(150, 140, 133);
+    }
+    .img{
+        width: 500px;
+        height: 200px;
+        padding-bottom: 30px;
+    }
+    .col2{
+        padding-bottom: 200px;
+    }
+    .img2{
+        width: 200px;
+        height: 220px;
+        padding-top: 15px;
+    }
+}
