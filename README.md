@@ -1,6 +1,6 @@
 # _Chap Chap Restaurant_
 ***
-![Chap Chap Restaurant](https://files.slack.com/files-pri/T0101L740P4-F01JQCTJCJ1/image.png "Chap Chap Restaurant")
+![Chap Chap Restaurant](https://github.com/Jackson-coder-arch/Restaurant/blob/clifford/menu/images/screenshot.png "Chap Chap Restaurant")
 ---
 ## _About_
 _Chap Chap Restaurant provides the following services;_
