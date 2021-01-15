@@ -1,11 +1,15 @@
 
 .upperbody{
-    color: white;
+    color: rgb(242, 82, 28);
+
     text-align: center;
+    font-weight: 5000;
    
 }
 .upper{
-    background-image: url("../images/burger2.jpg");
+    background-image: url("../images/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
 }
@@ -267,4 +271,7 @@ body{
 }
 .dpage{
     color: black;
+}
+.message{
+    font-size: 20px;
 }
