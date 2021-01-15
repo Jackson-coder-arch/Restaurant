@@ -86,3 +86,11 @@ img{
 .chicken{
     width: 450px;
 }
+
+@media screen and (max-device-width: 768px) {
+    .p2{
+        font-size: 30px;
+        padding-left: 90px;
+        padding-top: 80px;
+    }
+}

@@ -130,3 +130,34 @@
     background-repeat: no-repeat;
     background-size: 13%;
 }
+
+@media screen and (max-device-width: 768px) { 
+    .small1{
+        text-align: center;
+        padding-left: 150px;
+        line-height: 60px;
+    }
+    .span1{
+        padding-left: 150px;
+        font-size: 20px;
+        line-height: 60px;
+    }   
+    .small2{
+        padding-left: 20px;
+        text-align: center;
+        font-size: 12px;
+        
+    }
+    .small4{
+        padding-left: 100px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .card-body{
+        padding-left: 10px;
+    }
+    .foods{
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+}
