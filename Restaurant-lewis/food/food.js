@@ -23,7 +23,7 @@ $("#button1").click(function () {
     $(".carttext").show();
     $(".cartsub").show();
     $(".nproduct").hide();
-
+    $("#checkout").show();
     $("#burg").val("400");
     order.push(matoke);
 
@@ -42,7 +42,7 @@ $("#button1").click(function () {
         $("ul#list").hide();
         $("h2#total").hide();
         $(".nproduct").show();
-        $("#checkout").show();
+        
         alert("You did not make a selection!");
     }
 });
@@ -68,7 +68,7 @@ $("#buttontwo").click(function () {
     $(".carttext").show();
     $(".cartsub").show();
     $(".nproduct").hide();
-
+    $("#checkout").show();
     $("#burgone").val("200");
     order.push(matokeTwo);
 
@@ -88,7 +88,7 @@ $("#buttontwo").click(function () {
         $("ul#list").hide();
         $("h2#total").hide();
         $(".nproduct").show();
-        $("#checkout").show();
+        
         alert("You did not make a selection!");
     }
 });
@@ -114,7 +114,7 @@ $("#buttonthree").click(function () {
     $(".carttext").show();
     $(".cartsub").show();
     $(".nproduct").hide();
-
+    $("#checkout").show();
     $("#burgtwo").val("200");
     order.push(matokeThree);
 
@@ -134,7 +134,7 @@ $("#buttonthree").click(function () {
         $("ul#list").hide();
         $("h2#total").hide();
         $(".nproduct").show();
-        $("#checkout").show();
+        
         alert("You did not make a selection!");
     }
 });
@@ -160,7 +160,7 @@ $("#buttonfour").click(function () {
     $(".carttext").show();
     $(".cartsub").show();
     $(".nproduct").hide();
-
+    $("#checkout").show();
     $("#burgthree").val("200");
     order.push(matokeFour);
 
@@ -180,7 +180,7 @@ $("#buttonfour").click(function () {
         $("ul#list").hide();
         $("h2#total").hide();
         $(".nproduct").show();
-        $("#checkout").show();
+        
         alert("You did not make a selection!");
     }
 });
@@ -206,7 +206,7 @@ $("#buttonfive").click(function () {
     $(".carttext").show();
     $(".cartsub").show();
     $(".nproduct").hide();
-
+    $("#checkout").show();
     $("#burgfour").val("200");
     order.push(matokeFive);
 
@@ -226,7 +226,7 @@ $("#buttonfive").click(function () {
         $("ul#list").hide();
         $("h2#total").hide();
         $(".nproduct").show();
-        $("#checkout").show();
+        
         alert("You did not make a selection!");
     }
 });
