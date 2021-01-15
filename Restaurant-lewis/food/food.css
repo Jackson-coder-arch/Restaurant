@@ -1,0 +1,328 @@
+html {
+    overflow-x: hidden;
+}
+
+/* #navtop ul li {
+    float: right;
+    padding-left: 50px;
+    color: white;
+}
+#navtop ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+#navtop ul {
+    margin-right: 100px;
+    z-index: 0;
+}
+#navtop {
+    background-color:  rgb(20, 22, 36);
+    height: 100px;
+} */
+#logo {
+    /* display: inline-block; */
+    vertical-align: top;
+    float: left;
+}
+
+/* .navbarF {
+    background-color:  rgb(20, 22, 36) !important;
+} */
+#navbarNav {
+    margin-left: 300px;
+}
+
+.navbar-nav {
+    margin-right: 300px;
+}
+
+.navbar-nav li a {
+    float: left;
+    display: flex;
+}
+
+.navbar-item {
+    color: black !important;
+}
+
+.logo {
+    margin-top: -50px;
+}
+
+.myrow1 {
+    height: 70px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.choose {
+    margin-left: -30px;
+}
+
+.choose li {
+    float: left;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.myrow2 {
+    height: 400px;
+    position: relative;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel .carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    position: relative;
+    object-fit: cover;
+    object-position: 50% 70%;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+    height: 100%;
+}
+
+.fast-img {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -200px;
+    border: solid white 10px;
+    border-radius: 5px;
+}
+
+.fast h3 {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -180px;
+    color: white;
+}
+
+.fast p {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -135px;
+    color: white;
+}
+
+.fast .arrow {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 350px;
+    height: 20px;
+    border-radius: 50%;
+    border-color: white;
+}
+
+.fast .bike {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 450px;
+}
+
+.fast .star {
+    height: 34px;
+    position: absolute;
+    margin-top: -107px;
+    margin-left: 550px;
+}
+
+.btn1 {
+    position: absolute;
+    margin-left: 640px;
+    margin-top: -178px;
+}
+
+.form-control {
+    display: none;
+    width: 50%;
+    text-align: center;
+    top: -200px;
+    height: 60px;
+    width: 60rem;
+}
+
+.fruit {
+    /* position: relative;
+    z-index: 1; */
+    /* max-height: 100%;
+    max-width: 100%; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1320px; */
+}
+
+.myrow3 {
+    height: 1500px;
+    background-image: url("img/katherine-chase-4MMK78S7eyk-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mycol3 {
+    /* border: solid red; */
+}
+
+.card-title1 {
+    border: solid;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin: -17px;
+    color: white;
+    background-color: rgb(242, 82, 28);
+    border-color: rgb(242, 82, 28);
+}
+
+.cardbutton {
+    padding-top: 50px;
+}
+
+.card1 {
+    margin-top: 40px;
+    z-index: 2;
+    margin-left: 40px;
+}
+
+.card3 {
+    margin-top: 40px;
+    right: 0px;
+}
+
+.card11 {
+    margin-top: 40px;
+    right: 40px;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.card2 {
+    margin-top: 40px;
+}
+
+.burger {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: -5px;
+}
+
+.btn2 {
+    margin-left: 210px;
+    width: 119px;
+    margin-top: -30px;
+    background: none;
+    border-color: black;
+    color: black;
+    line-height: 15px;
+}
+
+.btn2:hover {
+    /* color: rgb(242, 82, 28); */
+    border-color: black;
+}
+
+/* .btn2:focus,
+.btn2.focus {
+    color: black;
+    background-color: none;
+    border-color: black; */
+/* box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5); */
+
+
+.btn3 {
+    margin-left: 220px;
+    padding-left: -20px;
+    padding-right: -30px;
+    width: 110px;
+    line-height: 15px;
+    margin-top: -20px;
+    background: none;
+    border-color: black;
+    color: black;
+}
+
+.btn3:hover {
+    color: rgb(242, 82, 28);
+    background-color: none !important;
+}
+
+.button {
+    margin-top: -10px;
+}
+
+.btn4 {
+    width: 285px;
+    margin-top: 5px;
+    margin-left: -15px;
+    background-color: none;
+}
+
+.btn4:hover {
+    color: rgb(242, 82, 28);
+}
+
+.cartsub {
+    text-align: center;
+    display: none;
+}
+
+.carttext {
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
+
+#subtotal {
+    text-align: center;
+    display: none;
+}
+#total {
+    text-align: center;
+}
+#checkout {
+    display: none;
+}
+.food {
+    list-style-type: none;
+}
+.navbar {
+    
+    background-color:black;
+  
+    
+    width: 100%;
+    
+  }
+ 
+.imglogo{
+    height: 120px;
+    
+}
+.home-content a {
+    float: left;
+    justify-content: space-evenly;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 0px 40px;
+    text-decoration: none;
+    
+    
+    
+  }
+ 
+  .home-content{
+    float: right;
+}
+.ha:hover{
+    color: rgb(242, 82, 28);
+    text-decoration: none;
+}

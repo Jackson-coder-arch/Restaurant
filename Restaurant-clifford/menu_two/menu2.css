@@ -1,0 +1,163 @@
+.one{
+    background-image: url(images/leaves.png);
+    background-repeat: no-repeat;
+}
+.p1{
+    padding-top: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.small1{
+    text-align: center;
+    padding-left: 480px;
+    line-height: 60px;
+}
+.span1{
+    padding-left: 430px;
+    font-size: 45px;
+    line-height: 60px;
+}
+.span2{
+    text-decoration: underline rgb(19, 11, 9);
+    text-underline-position: under;
+    text-decoration-skip-ink: ink;
+}
+.small2{
+    padding-left: 350px;
+    
+}
+.small4{
+    padding-left: 460px;
+    font-weight: bold;
+}
+.message{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foods{
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.img{
+    width: 100px;
+    border-radius: 200px;
+    float: left;
+    padding-left: 0px;
+    padding-right: 30px;
+}
+.recipe{
+    text-emphasis: padding;
+    text-align: justify;
+    font-size: 18px;
+}
+.price{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.row-one{
+    padding-bottom: 100px;
+}
+.list{
+    font-size: 15px;
+}
+.chicken{
+    width: 100px;
+    float: left;
+    border-radius: 150px;
+    padding-right: 20px;
+}
+.two{
+    background-image: url(../menu/images/whitepage2.jpeg);
+}
+.menu2{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-image: url(images/foodfood1.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.daily{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 200px;
+}
+/* .menu-two{
+    background-image: url(../menu/images/whitepage.jpeg);
+} */
+.card-body{
+    width: 100%;
+    background-image: url(../menu/images/whitepage.jpeg);
+    padding-left: 50px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.col-md-6{
+    padding-left: 50px;
+}
+.foods2{
+    padding-bottom:60px ;
+}
+.price2{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 5px;
+    color: chocolate;
+    font-weight: bold;
+    font-size: 16px;
+}
+.rice{
+    width: 100px;
+    float: left;
+    border-radius: 150px;
+    padding-right: 20px;
+}
+.recipe2:hover{
+     color: chocolate;
+}
+.recipe2{
+    font-weight: bold;
+}
+.main{
+    background-image: url(images/back.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.main2{
+    background-image: url(images/roastchicken\ \(1\).png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 13%;
+}
+
+@media screen and (max-device-width: 768px) { 
+    .small1{
+        text-align: center;
+        padding-left: 150px;
+        line-height: 60px;
+    }
+    .span1{
+        padding-left: 150px;
+        font-size: 20px;
+        line-height: 60px;
+    }   
+    .small2{
+        padding-left: 20px;
+        text-align: center;
+        font-size: 12px;
+        
+    }
+    .small4{
+        padding-left: 100px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .card-body{
+        padding-left: 10px;
+    }
+    .foods{
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+}

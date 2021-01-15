@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./restaurant.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- <div class="navbar">
+
+        <div class="home">
+
+
+
+            <div class="home-content">
+                
+                    <a>
+                        <img alt="logo" src="./img/logo.png" class="imglogo" width="150px" height="150px">
+                    </a>
+                
+
+                <a class="ha" href="../Restaurant/index.html">HOME</a>
+                <a class="ha" href="#">RESTAURANT</a>
+                <a class="ha" href="#">FOOD</a>
+                <a class="ha" href="#">Menu</a>
+                <a class="ha" href="#">Order</a>
+            </div>
+
+        </div>
+
+    </div> -->
+    <div class="navbar mt-1" >
+        <img class="imglogo" src="../../Restaurant/images/logo.png" width="200px" height="220px" >
+
+
+        <div class="home-content">
+           
+            <a class="ha" href="../../Restaurant/index.html">HOME</a>
+            <a class="ha" href="../Restaurant-jackson/restaurant.html">RESTAURANT</a>
+            <a class="ha" href="../../Restaurant/Restaurant-lewis/food/food.html">FOOD</a>
+            <a class="ha" href="../../Restaurant/Restaurant-clifford/menu/menu.html">MENU</a>
+            <a class="ha" href="../../Restaurant/Restaurant-breens/order page/order.html">ORDER</a>
+
+        </div>
+        
+        
+
+    </div>
+
+    <section id="sec">
+        <div class="row" id="loc">
+            <div class="col-md-3 col-sm-6 steps-widget-item">
+                <span class="number">1</span>
+                <span class="descirption"> Choose Your Location</span>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <span class="number">2</span>
+                <span class="descirption"> Your Restaurant</span>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <span class="number">3</span>
+                <span class="descirption"> Pick Your favorite food</span>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <span class="number">4</span>
+                <span class="descirption"> Order and pay online</span>
+            </div>
+
+        </div>
+        <div class="container-fluid text-center" id="search">
+
+            <div class="container text-white mt-5 pt-5">
+                <h2> <strong>Search Your Favourite Food</strong> </h2>
+                <p><strong>Find restaurants, specials, and coupons for free</strong> </p>
+
+            </div>
+           
+            <!-- <div class="row " id="">
+                <div class="col-md-6 col-one">
+                    <!-- <form class="example"  style="margin:auto;max-width:400px"> -->
+                        <!-- <input type="text" placeholder="Search.." name="search2">                   -->
+                <!-- </form> -->
+                <!-- </div>
+                <div class="col-md-6 col-two">
+                    <div class="">
+                        <button type="submit" class="btn btn-primary mb-3"width="100%" >Search..</button>
+                    </div>
+
+                </div>
+            </div> -->
+
+                
+            
+            
+
+        </div>
+    </section>
+    <div>
+        <p class="results">Showing all 3 results</p>
+    </div>
+    <div class="container-fluid pt-2 my-2" id="let">
+        <div class="container">
+
+
+            <div class="row" id="card-b">
+                <div class="col-md-4 mr-md-2 my-4">
+                    
+
+
+                    <div class="card food">
+                        <input type="text" placeholder="Search.." name="search2" width="100%">
+
+                        <div class="form-check">
+                            <input class="form-check-input my-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Beverages
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input my-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Burgers
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input my-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Pasta
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input my-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Pizza
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input my-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Sandwiches
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input my-2" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Burgers
+                            </label>
+                        </div>
+
+
+                        <div class="card my-3 food">
+                            <div class="row">
+                                <p>FOOD FOR </p>
+                                <div class="col-md-6">
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Delivery</label>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">Pick up</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 ml-md-2 my-4" id="cards">
+                    <div class="card mb-3" style="max-width:880px" height="800px">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/secret.jpeg" class="ml-3" alt="..." width="180px" height="180px">
+
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5>Secrect Garden restaurant</h5>
+                                    <p>This is one of the best place to get African cuisines well
+                                        done.
+                                    <p> From nyama choma, githeri, wali, mukimo</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="./img/rate3.jpg" alt="rate" width="100px">
+                        <p>Reviews 14</p>
+                    </div>
+
+
+                    <div class="card mb-3" style="max-width:880px">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/drinks.jpeg" alt="restaurant" width="180px" height="180px">
+
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5>Roma Cafe</h5>
+                                    <p class="card-text">You can never go wrong with our drinks and fruits, start
+                                        your
+                                        day with much love from us.</p>
+                                    <p class="card-text"><small class="text-muted">Coffee, fruit juice, salads, milk
+                                            shake, Cappicino </small></p>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="./img/rate2.jpg" class="rate pt-5" alt="rate" width="100px">
+                        <p>Reviews 12</p>
+
+                    </div>
+
+
+
+
+
+                    <div class="card mb-3" style="max-width: 880px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/fast.jpeg" alt="restaurant" width="180px" height="180px">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nathan's fast food</h5>
+                                    <p class="card-text">Enjoy our pizzas, burger, hotdogs, wings. Get any kind of
+                                        fast food under one roof
+                                        without delay.
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">Get served as fast as possible
+                                            without inconviniences </small></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+                        <img src="./img/rate2.jpg" class="rate pt-5" alt="rate" width="100px">
+                        <p>Reviews 10</p>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <div class="whatwedo height ">
+    
+        <p class="text-white">We always value feedback, don't forget to reachout to us</p>
+
+
+
+
+        <div class="icons">
+
+
+
+            <div class="hide">
+                <p class="clickk"><b>ABOUT US </b> <br> <br>Our practice is to offer full range of service
+                    including getting you food and drinks from the best hotels in town. Relax as we get you
+                    what you need<br><br>All around the city and its environs, we ensure you get them as fast as
+                    possible, user feedback and work with you to make sure what gets built is what is needed.</p>
+            </div>
+
+
+
+            <div class="show">
+
+                <img class="click" class="clickk" src="./img/aboutabout.png">
+                <p class="foot">ABOUT US </p>
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="icons2">
+            <div class="hide2 text-white">
+                <p class="click22">
+                    <p>Reach us through</p>
+                <p>Email: chakulachapchap@gmail.com</p>
+                <p>Or you can call us through </p>
+                <p>+25412345678910</p>
+        
+
+            </div>
+
+
+
+            <div class="show2">
+
+                <img class="click2" class="click22" src="./img/contact2.png">
+                <p class="foot">CONTACT US </p>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="icons3">
+            <div class="hide3 text-white">
+                <b>CONTACT US </b> <br> <br> Go to your Mpesa<br><br>Select lipa na mpesa,
+                    then select the paybill option our paybill no. 567908<br><br>Acc MFZ2367498<br><br>
+                    Thank you for buying from us </p>
+            </div>
+
+
+
+            <div class="show3">
+
+                <img class="click3" class="click33" src="./img/payment2.png">
+                <p class="foot">PAYMENT METHOD </p>
+            </div>
+            
+        </div>
+        <div>
+            <p class="email text-white" ><strong>Www.chakulachapchap.gmail.com</strong></p>
+
+        </div>
+        
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="./restaurant.js"></script>
+
+</body>
+
+</html>
