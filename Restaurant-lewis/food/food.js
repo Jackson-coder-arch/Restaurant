@@ -230,6 +230,10 @@ $("#buttonfive").click(function () {
         alert("You did not make a selection!");
     }
 });
+$("#checkout").click(function() {
+    var checkout = prompt("Enter you address?");
+    alert("Thank you for ordering with us, your order will be delivered to" + " " + checkout + " " + "as soon as possible");
+});
 function FoodFive(size) {
     this.foodSiz = size;
 };
