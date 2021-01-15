@@ -232,7 +232,7 @@ $("#buttonfive").click(function () {
 });
 $("#checkout").click(function() {
     var checkout = prompt("Enter you address?");
-    alert("Thank you for ordering with us, your order will be delivered to" + " " + checkout + " " + "as soon as possible");
+    swal("Thank you for ordering with us, your order will be delivered to" + " " + checkout + " " + "as soon as possible");
 });
 function FoodFive(size) {
     this.foodSiz = size;
