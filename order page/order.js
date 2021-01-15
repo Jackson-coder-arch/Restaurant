@@ -1,10 +1,8 @@
 //user interface logic
 $(document).ready(function () {
-    $("#checkout-button").click(function() {
+    $("#checkout").click(function() {
         location.href = "order.html";
-        var textInside = ctrl.getElementsByTagName('p')[0].innerHTML;
-        console.log(textInside)
-
+        var itemName = $("#burger").text();
     })
 
     $("#order").click(function() {
