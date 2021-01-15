@@ -13,6 +13,7 @@
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
         crossorigin="anonymous">
     </script>
+    <script src="order.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
@@ -42,57 +43,18 @@
     <div class="container">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <div class="items-added">
                         <img src="images/payment-method.svg" alt="" id="payment-svg">
                         <h2 class="heading-2">Confirm & Pay</h2>
-                        <div class="row card-images">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <img src="images/mae-mu-I7A_pHLcQK8-unsplash.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Beef burger</h5>
-                                            <p class="card-text">
-                                                $ 5.00
-                                            </p>
-                                            <button type="button" class="btn btn-primary">+</button>
-                                            <button type="button" class="btn btn-primary">-</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <img src="images/mae-mu-I7A_pHLcQK8-unsplash.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Beef burger</h5>
-                                            <p class="card-text">
-                                                $ 5.00
-                                            </p>
-                                            <button type="button" class="btn btn-primary">+</button>
-                                            <button type="button" class="btn btn-primary">-</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <img src="images/mae-mu-I7A_pHLcQK8-unsplash.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Beef burger</h5>
-                                            <p class="card-text">
-                                                $ 5.00
-                                            </p>
-                                            <button type="button" class="btn btn-primary">+</button>
-                                            <button type="button" class="btn btn-primary">-</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <button type="button" class="btn btn-success" id="order">Order</button>
+                        <p id="itemName"></p>
+                        <p id="itemPrice"></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
    
-    <link rel="stylesheet" href="order.js">
 </body>
 </html>

@@ -1,19 +1,17 @@
 //user interface logic
 $(document).ready(function () {
-    $("#add-cart").click(function() {
-        var itemName = $("p").val();
-        var price = $("h2").val();
-        var number = $("").val();
+    $("#checkout-button").click(function() {
+        location.href = "order.html";
+        var textInside = ctrl.getElementsByTagName('p')[0].innerHTML;
+        console.log(textInside)
+
+    })
+
+    $("#order").click(function() {
         swal({
             title: "Conpleted Order! Wait for delivery",
-            text: `You bought ${number} ${itemName} ${price} and the total is ${priceTotal()}`,
+            text: `You bought and the total is`,
             icon: "success",
           });
     })
 })
-
-//backend logic
-function priceTotal() {
-    var total = itemName * number
-    return total;
-}
