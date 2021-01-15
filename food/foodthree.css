@@ -287,6 +287,9 @@ html {
 #total {
     text-align: center;
 }
+#checkout {
+    display: none;
+}
 .food {
     list-style-type: none;
 }

@@ -42,6 +42,7 @@ $("#button1").click(function () {
         $("ul#list").hide();
         $("h2#total").hide();
         $(".nproduct").show();
+        $("#checkout").show();
         alert("You did not make a selection!");
     }
 });
@@ -87,6 +88,7 @@ $("#buttontwo").click(function () {
         $("ul#list").hide();
         $("h2#total").hide();
         $(".nproduct").show();
+        $("#checkout").show();
         alert("You did not make a selection!");
     }
 });
@@ -132,6 +134,7 @@ $("#buttonthree").click(function () {
         $("ul#list").hide();
         $("h2#total").hide();
         $(".nproduct").show();
+        $("#checkout").show();
         alert("You did not make a selection!");
     }
 });
@@ -177,6 +180,7 @@ $("#buttonfour").click(function () {
         $("ul#list").hide();
         $("h2#total").hide();
         $(".nproduct").show();
+        $("#checkout").show();
         alert("You did not make a selection!");
     }
 });
@@ -222,6 +226,7 @@ $("#buttonfive").click(function () {
         $("ul#list").hide();
         $("h2#total").hide();
         $(".nproduct").show();
+        $("#checkout").show();
         alert("You did not make a selection!");
     }
 });

@@ -263,7 +263,6 @@ html {
     margin-left: -15px;
     background-color: none;
 }
-
 .btn4:hover {
     color: rgb(242, 82, 28);
 }
@@ -286,6 +285,9 @@ html {
 }
 #total {
     text-align: center;
+}
+#checkout {
+    display: none;
 }
 .food {
     list-style-type: none;
