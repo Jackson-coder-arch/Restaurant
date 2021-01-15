@@ -269,9 +269,41 @@ h2{
 
 
 body{
-    background-image: url("../images/footer.jpg");
-    height: 100%;
+    background-image: url("./img/footer.jpg");
     width: 100%;
+
 }
-
-
+.imgfooter{
+    
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background:rgb(17, 228, 17);
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
