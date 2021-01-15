@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    background-color: rgb(20, 22, 36);
+}
+
+.navbar-brand {
+    color: white;
+    margin-left: 35px;
+}
+
+.links {
+   margin-right: 150px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: white;
+}
+
+.links ul li{
+    padding-right: 45px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+.navbar-brand span {
+    color: orange;
+}
+
+.items-added {
+    text-align: center;
+    padding-top: 80px;
+}
+
+#payment-svg {
+    width: 70px;
+    height: 70px;
+}
+
+.heading-2 {
+    margin-top: 20px;
+}
+
+.card {
+    width: 10rem;
+    border-radius: 20px;
+}
+
+.card img {
+    border-radius: 20px 20px 0 0;
+    border: none;
+}
+
+.card-images {
+    padding-top: 20px;
+}
+
+button:focus {
+    outline: none;
+}
