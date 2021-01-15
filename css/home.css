@@ -253,3 +253,18 @@ body{
 *{
     overflow-x: hidden;
 }
+
+.feature{
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+    Color: black
+
+}
+.dpage:hover{
+    Color: rgb(242, 82, 28)
+
+}
+.dpage{
+    color: black;
+}
