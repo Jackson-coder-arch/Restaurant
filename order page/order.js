@@ -2,7 +2,6 @@
 $(document).ready(function () {
     $("#checkout").click(function() {
         location.href = "order.html";
-        var itemName = $("#burger").text();
     })
 
     $("#order").click(function() {
